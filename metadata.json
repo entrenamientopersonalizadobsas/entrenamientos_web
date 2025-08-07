@@ -1,0 +1,6 @@
+{
+  "name": "Planificador de Entrenamiento",
+  "description": "Una aplicación web para planificar y registrar tus rutinas de entrenamiento semanales, con seguimiento detallado de ejercicios, series, repeticiones y métricas de esfuerzo.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
