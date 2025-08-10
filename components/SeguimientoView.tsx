@@ -265,30 +265,6 @@ const SeguimientoView: React.FC<SeguimientoViewProps> = ({ plan, log, monthlyGoa
                 </div>
             </div>
         </div>
-
-        <div>
-            <h3 className="text-lg font-semibold text-violet-300 mb-4 text-center">Check-in del Mes {selectedMonth}</h3>
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                <DoughnutChart
-                    title="Descanso"
-                    data={checkinDataByCategory.sueño}
-                    icon={<SleepIcon className="w-5 h-5" />}
-                    showTotal={false}
-                />
-                <DoughnutChart
-                    title="Nutrición"
-                    data={checkinDataByCategory.comida}
-                    icon={<NutritionIcon className="w-5 h-5" />}
-                    showTotal={false}
-                />
-                <DoughnutChart
-                    title="Energía"
-                    data={checkinDataByCategory.energia}
-                    icon={<EnergyIcon className="w-5 h-5" />}
-                    showTotal={false}
-                />
-            </div>
-        </div>
       </section>
 
       {loggedExercises.length > 0 && (
